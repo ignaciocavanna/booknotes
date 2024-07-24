@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    background-color: #EEEEEE;
+}
+
+h1, h2, h3, h4, p {
+    font-family: "Comic Neue", cursive;
+    color: #76ABAE;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.neuromorph {
+    border-radius: 25px;
+    background: #222831;
+    box-shadow: inset 5px 5px 10px #1d222a,
+                inset -5px -5px 10px #272e38;
+}
+
+.global-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.top-heabar {
+    margin:5% auto;
+    height: 5%;
+    width: 90%;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.bottom-section {
+    padding: 15px;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-space {
+    text-align: center;
+}
+
+.rounded-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: auto;
+    height: 40px; 
+    width: 40px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #7eb7ba, #6a9a9d);
+    box-shadow:  5px 5px 10px #76ABAE,
+    -5px -5px 10px #77adb0;
+}
+
+.topBar {
+    border-radius:0px 0px 25px 25px;
+    background: #222831;
+    box-shadow: inset 5px 5px 10px #1d222a,
+                inset -5px -5px 10px #272e38;
+    height: 10vh;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
